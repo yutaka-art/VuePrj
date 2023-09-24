@@ -14,7 +14,6 @@ import VueAxios from 'vue-axios' //追記
 //axios.defaults.headers.get['Origin'] = 'https://trustedsite.com';
 
 //axios.defaults.baseURL = 'https://apim-vue-api-dev-001.azure-api.net'
-//axios.defaults.headers.common['Ocp-Apim-Subscription-Key'] = 'e8f9eaeaaaa64d408f0fb028ab693061';
 
 axios.defaults.baseURL = 'https://localhost:44372'
 
@@ -48,6 +47,3 @@ new Vue({
   router,
   render: h => h(App)
 }).$mount('#app')
-
-
-
