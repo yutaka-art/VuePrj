@@ -1,0 +1,12 @@
+version: '3'
+services:
+  nginx:
+    build: ./nginx
+#    tty: true
+    image: acrosadev01.azurecr.io/vue-chat2-nginx
+    container_name: vue-chat2-nginx
+    environment:
+      TZ: Asia/Tokyo
+    ports:
+      - "80:80"
+#      - "8080:80"
